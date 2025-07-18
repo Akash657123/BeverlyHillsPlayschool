@@ -1,2 +1,2 @@
 # BeverlyHillsPlayschool
-<a href="PlaySchoolERP/Pages/about.html">About Page</a>
+<a href="PlaySchoolERP/Pages/Index.html">About Page</a>
