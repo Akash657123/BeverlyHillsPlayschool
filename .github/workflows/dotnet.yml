@@ -24,4 +24,12 @@ jobs:
       run: dotnet restore PlaySchoolERP/PlaySchoolERP.csproj
     - name: Build
       run: dotnet build PlaySchoolERP/PlaySchoolERP.csproj
+    - name: Upload site content from Pages folder
+      uses: actions/upload-pages-artifact@v1
+      with:
+        path: PlaySchoolERP/Pages
+
+    - name: Deploy to GitHub Pages
+      uses: actions/deploy-pages@v1
+
     
